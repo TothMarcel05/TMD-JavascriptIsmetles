@@ -1,5 +1,5 @@
 //1. f.
-let nev = "TMD";
+let nev = "Tóth Marcel Dániel";
 let kor = 19;
 console.log(`Szia ${nev}! ${kor} éves vagy`);
 
@@ -67,3 +67,29 @@ function legnagyobb(tomb)
     return valt
 }
 console.log(legnagyobb(tomb))
+
+//7. f.
+valt = "";
+let szavak = ["alma", "körte", "barack"]
+function osszefuz(tomb)
+ {
+    for (let i = 0; i < szavak.length; i++)
+    {
+        valt += szavak[i] + " ";
+    }
+    return valt
+ }
+
+ console.log(osszefuz(szavak))
+
+ //8. f. 
+tomb = [3, 5, 3, 7, 5, 9]
+let halmaz = new Set()
+for (let i = 0; i < tomb.length; i++)
+{
+    halmaz.add(tomb[i])
+}
+
+console.log(halmaz)
+
+
