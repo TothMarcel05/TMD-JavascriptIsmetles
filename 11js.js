@@ -11,7 +11,8 @@ function szamologep(a, b, muvelet)
         case "*":
             return a * b
         case "/":
-            return a / b
+            if (a == 0 || b == 0) return "0-val nem osztunk"
+            else return a / b
         default: 
             return "Ismeretlen művelet jel"
     }
