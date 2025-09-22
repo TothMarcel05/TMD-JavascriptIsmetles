@@ -1,5 +1,5 @@
 let szo = prompt("Szó: ")
-let reverse = szo.split("").reverse().join("").toLowerCase().replace(/\s/g, "")
+let reverse = szo.split("").reverse().join("").toLowerCase()
 
 function palindrom(szo)
 {
